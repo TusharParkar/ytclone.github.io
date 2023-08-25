@@ -1,0 +1,237 @@
+@media screen and (max-width:1024px) {
+    body {
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .manuicon {
+        /* width: 5%; */
+        font-size: 1em;
+        /* margin: 0em 0.5em; */
+    }
+
+    .logo img {
+        height: 3em;
+    }
+
+    .searchbar input {
+        /* width: 80%; */
+        padding: 0.5em 0.5em;
+        font-size: 1em;
+        /* border: 1px solid rgb(163, 161, 161);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; */
+    }
+
+    .searchbar button {
+        width: 20%;
+        padding: 0.5em 0.5em;
+        border: 1px solid rgb(163, 161, 161);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .microphone {
+        height: 2em;
+        width: 3em;
+        font-size: 1em;
+        padding: 0.5em 0em;
+    }
+
+    .addvideo {
+        width: 9%;
+        margin: 0em 2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1em;
+        margin-left: 4em;
+    }
+
+    .addvideo i {
+        padding: 0.4em;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        background-color: whitesmoke;
+    }
+
+    .signlogo {
+        height: 2em;
+        width: 2em;
+        border: 1px solid black;
+        padding: 1em;
+    }
+
+    .thirdvideosection {
+        display: none;
+    }
+
+    .videoclection {
+        width: 44%;
+    }
+
+    .ytnames {
+        width: 45%;
+    }
+
+}
+
+/* largesize mobile phones */
+@media screen and (min-width:420px)and (max-width:600px) {
+    body {
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .manuicon {
+        font-size: 0.7em;
+    }
+    .logo img {
+        height: 2em;
+    }
+    .searchbar input {
+        padding: 0.4em 0.4em;
+        font-size: 0.6em;
+    }
+    .searchbar button {
+        padding: 0.4em 0.4em;
+        font-size: 0.6em;
+    }
+    .microphone {
+        font-size: 0.7em;
+    }
+    .addvideo {
+        font-size: 0.7em;
+    }
+    .sidesection aside i {
+        font-size: 0.8em;
+       
+    }
+    .sidesection aside p {
+        font-size: 0.5em;
+    }
+    .sidesection aside img {
+        height: 1em;  
+    }
+    .sectionnav ul li a {
+        font-size: 0.7em;
+    }
+    .firstvideo {
+        height: 29vh;
+    }
+    .ytnames h6 {
+        font-size: 9px;
+    }
+    .ytnames a {
+        font-size: 0.7em;
+    }
+    .ytnames p {
+        font-size: 0.7em;
+    }
+}
+/* mediam size mobilse */
+@media screen and (min-width:375px)and (max-width:420px) {
+
+    .manuicon {
+        font-size: 0.6em;
+       
+    }
+    .logo img {
+        height: 2em;
+    }
+    .searchbar input {
+        padding: 0.5em 0.5em;
+        font-size: 0.5em;
+    }
+    .searchbar button {
+        font-size: 0.5em;
+    }
+    .microphone {
+        font-size: 0.5em;
+    }
+    .addvideo {
+        font-size: 0.5em;
+    }
+    .sidesection aside i {
+        font-size: 0.7em;
+        /* margin: 1em 0em 0.5em 0em; */
+    }
+    .sidesection aside p {
+        font-size: 0.5em;
+    }
+    .sidesection aside img {
+        height: 0.7em;
+      
+    }
+    .sectionnav ul li a {
+        font-size: 0.7em;
+    }
+    .firstvideo {
+        height: 26vh;
+    }
+    .ytnames h6 {
+        font-size: 9px;
+    }
+    .ytnames a {
+        font-size: 0.5em;
+    }
+    .ytnames p {
+        font-size: 0.5em;
+    }
+}
+@media screen and (min-width:280px)and (max-width:374px) {
+    .manuicon {
+        font-size: 0.6em;
+    } 
+    .logo img {
+        height: 2em;
+    }
+    .searchbar {
+        margin: 0em 0.2em;
+    }
+    .logo img {
+        height: 2em;
+    }
+    .searchbar input {
+        font-size: 0.6em;
+    }
+    .searchbar button {
+        font-size: 0.6em;
+    }
+    .microphone {
+        
+        font-size: 0.6em;
+    }
+    .addvideo {
+        font-size: 0.6em;
+    }
+    .sidesection aside i {
+        font-size: 0.7em;
+    }
+    .sidesection aside p {
+        font-size: 0.4em;
+    }
+    .sidesection aside img {
+        height: 0.9em;
+    }
+    .sectionnav ul li a {
+        font-size: 0.7em;
+    }
+    .firstvideo {
+        height: 26vh;
+    }
+    .ytnames h6 {
+        font-size: 9px;
+    }
+    .ytnames a {
+        font-size: 0.5em;
+    }
+    .ytnames p {
+        font-size: 0.5em;
+    }
+   
+}
